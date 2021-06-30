@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 75px;
+    width: 100%;
+    background-color: #2e3a46;
+}
+header img {
+        height: 55px;
+        margin-top: 10px;
+        margin-left: 25px;
+}
+
+.dischi {
+    height: calc(100vh - 75px);
+    margin-top: 75px;
+    overflow-y: auto;
+    background-color: #1e2d3b;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.select {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+.dischi_container {
+    height: 350px;
+    width: 220px;
+    margin: 20px ;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #2e3a46;
+
+}
+div img {
+    height: 150px;
+    margin: 25px
+}
+div .title {
+    padding: 0 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: white;
+
+}
+div .author,div .date {
+    margin: 0;
+    font-size: 16px;
+    color: #717571;
+}
