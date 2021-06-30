@@ -12,7 +12,7 @@
         <title>Document</title>
     </head>
     <body>
-        <?php 'header.php'; ?>
+            <?php 'header.php'; ?>
         
         <div class="dischi">
             <div class="container">
